@@ -36,3 +36,7 @@ README.md       Project description
 
 - Add JavaScript frameworks or libraries (React, Vue, jQuery, etc.).
 - Add build tools or package managers (npm, Vite, Webpack, Sass, etc.).
+
+## Git
+
+- Always ask before making a git commit or push.

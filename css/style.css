@@ -11,6 +11,7 @@
   --color-text: #1f2937;
   --color-background: #f9fafb;
   --color-header: #ffffff;
+  --color-title: #dc2626; /* red */
 }
 
 body {
@@ -60,7 +61,7 @@ main {
 
 h1 {
   margin-bottom: 1rem;
-  color: var(--color-primary);
+  color: var(--color-title);
 }
 
 /* ===== Footer ===== */
