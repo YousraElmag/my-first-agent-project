@@ -1,0 +1,72 @@
+/* ===== Basic reset ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Colors in one place (easy to change) ===== */
+:root {
+  --color-primary: #2563eb;
+  --color-text: #1f2937;
+  --color-background: #f9fafb;
+  --color-header: #ffffff;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Header and navigation ===== */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: var(--color-header);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  height: 40px;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--color-primary);
+}
+
+/* ===== Main content ===== */
+main {
+  flex: 1; /* pushes the footer to the bottom */
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
